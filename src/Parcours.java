@@ -37,8 +37,5 @@ public abstract class Parcours implements Iterator<Integer> {
         return val;
     }
 
-    @Override
-    public void remove() {
-        throw new UnsupportedOperationException("remove non supporté");
-    }
+
 }
