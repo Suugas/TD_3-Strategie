@@ -12,4 +12,16 @@ public class TableauEntier {
         }
         return  this.tab[l][c];
     }
+
+    public int getLargeur(){
+        return this.tab.length;
+    }
+
+    public int getLongueur(){
+        int l = 0;
+        if (this.tab.length>0) {
+            l = this.tab[0].length;
+        }
+        return l;
+    }
 }
