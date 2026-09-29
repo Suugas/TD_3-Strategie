@@ -4,10 +4,6 @@ public class ParcoursLigne extends Parcours {
         super(tab);
     }
 
-    public ParcoursLigne(int[][] tab) {
-        super(tab);
-    }
-
     @Override
     public void suivant() {
         this.colonneCour++;
