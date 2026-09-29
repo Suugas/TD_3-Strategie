@@ -15,10 +15,6 @@ public abstract class Parcours implements Iterator<Integer> {
         this.nbParcourus = 0;
     }
 
-    public Parcours(int[][] tab) {
-        this(new TableauEntier(tab));
-    }
-
     public abstract void suivant();
 
     @Override

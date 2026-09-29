@@ -24,4 +24,11 @@ public class TableauEntier {
         }
         return l;
     }
+
+    public ParcoursLigne iterateurLigne(){
+
+        return  new ParcoursLigne(this);
+
+    }
+
 }
